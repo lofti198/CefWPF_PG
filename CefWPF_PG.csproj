@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CefSharp.Common.NETCore" Version="123.0.60" />
+    <PackageReference Include="CefSharp.OffScreen.NETCore" Version="123.0.60" />
+    <PackageReference Include="CefSharp.Wpf.NETCore" Version="123.0.60" />
+  </ItemGroup>
+
+</Project>
